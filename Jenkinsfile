@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Selenium regression') {
             steps {
-                sh 'python python_automation.py'
+                bat 'python python_automation.py'
             }
         }
     }
